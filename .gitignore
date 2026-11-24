@@ -1,0 +1,10 @@
+node_modules
+dist
+.wrangler
+*.local
+.DS_Store
+# Prüfungsunterlagen und PC-WORX-Projekte gehören NICHT ins öffentliche Repo
+*.pdf
+*.zwt
+unterlagen/
+*.tsbuildinfo

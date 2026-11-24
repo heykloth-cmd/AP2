@@ -1,0 +1,10 @@
+// Konfiguration für Cloudflare (statische Website, kein Server-Code).
+// "name" muss dem Projektnamen im Cloudflare-Dashboard entsprechen.
+{
+  "name": "sps-trainer",
+  "compatibility_date": "2026-11-01",
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "single-page-application"
+  }
+}
